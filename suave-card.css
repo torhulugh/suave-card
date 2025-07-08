@@ -1,0 +1,152 @@
+.my-works-card {
+  border-radius: 30px;
+  border: -0.5px solid #32343848;
+  background-color: #1a1a1aa9;
+  width: 290px;
+  height: 440px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0px 15px 20px #00000097;
+  position: relative;
+  margin: auto;     /* dont forget to remove margin: auto, when using card*/
+}
+.my-works-card:hover {
+  scale: 105%;
+  transition: 0.5s;
+  .card-edge-blur-effect {
+    border: 0.5rem solid #7d7beebe;
+  }
+}
+.my-works-card-more {
+  display: none;
+}
+.card-content-container {
+  color: #5c5d62;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  align-content: space-between;
+  justify-content: center;
+  position: absolute;
+  margin: 0;
+  padding: 10px;
+  gap: 23px;
+  z-index: 2;
+}
+.card-edge-blur-effect {
+  border: 0.2rem solid #484849be;
+  border-radius: 30px;
+  width: 98%;
+  height: 98%;
+  margin: 0%;
+  padding: 0%;
+  filter: blur(0.5rem);
+  position: relative;
+  z-index: 1;
+}
+
+.card-img {
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 200px;
+  margin: 0;
+  border-radius: 20px;
+  align-content: flex-start;
+}
+.card-header-txt {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #b9c4d3;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.card-description-txt {
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3rem;
+  color: #96a1b2;
+  display: flex;
+  padding: 8px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+.myWorkCards--link {
+  color: #999;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.myWorkCards--link:hover {
+  color: #6351ba;
+}
+.explore-button {
+  display: flex;
+  position: relative;
+  background-color: #0d0c0d;
+  border: 2px solid #3032357e;
+  width: 95%;
+  height: 50px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0px 1px px #00000097;
+  padding: 0;
+}
+.explore-button:hover {
+  background-color: #000000;
+}
+
+.card-btn-edge-blur-effect {
+  container-type: size;
+  border: 0.001rem solid #696c7564;
+  border-radius: 40px;
+  width: 100%;
+  height: 88%;
+  margin: 0px;
+  padding: 0px;
+  filter: blur(0.3rem);
+  z-index: 3;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.border-effect {
+  border: 0.2px solid #fcfdff84;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.explore-txt {
+  width: 100%;
+  color: #a7a9b1;
+  text-align: center;
+  position: absolute;
+  z-index: 102;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  margin: auto;
+}
+.explore-txt:hover {
+  color: #7d7beebe;
+  cursor: pointer;
+}
